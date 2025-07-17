@@ -24,10 +24,12 @@ ID for your Google spreadsheet created in Step-4.
 Use the commands below to update your Google sheet tabs which are created following instructions in step-4. The 
 scripts take one or two arguments (-d $domain -m $module) 
 
+```
 $domain can be glygen/argosdb/biomarkerkb/... 
 $domainlabel can be GlyGen/ArgosDB/BioMarkerKB/...
 $module can be portal/beta/data/wiki/api
 $modulelabel can be Portal/Beta/Data/Wiki/API
+```
 
 ```
 $ python3 update-alldomainsdata-sheet.py -d $domain      		# updated sheets: Updated_AllDomains_Data, AllDomains_Top10Referrals, AllDomains_Bottom10Pages
