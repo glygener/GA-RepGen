@@ -1,0 +1,33 @@
+Target Google Sheet
+===================
+    https://docs.google.com/spreadsheets/d/1faXFb6yEYzHssBFU-LH5b4YIRhBxttfBuyaHnl09fuA/edit?gid=1246614802#gid=1246614802
+
+
+Sheets and update scripts
+=========================
+	- Updated_AllDomains_Data, AllDomains_Top10Referrals, AllDomains_Bottom10Pages
+			$ python3 update-alldomainsdata-sheet.py -d $domain
+		where $domain can be glygen/argosdb/...
+
+   
+	- Top10Countries, Top10Countries_Monthly
+			$ python3 update-alldomainstop10countries-sheet.py -d $domain
+      where $domain can be glygen/argosdb/...
+
+	
+	- Subdomains_Overview
+			$ python3 update-subdomainsoverview-sheet.py -d $domain
+      where $domain can be glygen/argosdb/...
+
+ 
+	- Improved_Top20Pages
+			$ python3 update-improvedtop20pages-sheet.py -d $domain
+		where $domain can be glygen/argosdb/...
+
+	
+	- GlyGen_Portal/Wiki/Data/Beta/API_Overview
+			$ python3 update-overview-sheet.py -d $domain -m $mod
+		where $domain can be glygen/argosdb/..., and $mod can be portal/wiki/data/beta/api
+
+    
+

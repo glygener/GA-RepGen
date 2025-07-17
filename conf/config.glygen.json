@@ -1,0 +1,39 @@
+{
+	"property_id":"361964108",
+	"sheet_id":"1faXFb6yEYzHssBFU-LH5b4YIRhBxttfBuyaHnl09fuA",
+	"credentials_file":"credentials.glygen.json",
+	"tabs":{
+		"overview":{
+       	"portal":{ "sheet_title":"GlyGen_Portal_Overview","domain_list":["glygen.org", "www.glygen.org"]},
+        	"wiki":{ "sheet_title":"GlyGen_Wiki_Overview","domain_list":["wiki.glygen.org"]},
+        	"data":{ "sheet_title":"GlyGen_Data_Overview","domain_list":["data.glygen.org"]},
+        	"beta":{ "sheet_title":"GlyGen_Beta_Overview","domain_list":["beta.glygen.org"]},
+        	"api":{ "sheet_title":"GlyGen_API_Overview","domain_list":["api.glygen.org"]}
+    	},
+		"top20pages":{
+         "portal":{ "sheet_title":"GlyGen_Top20Pages","domain_list":["glygen.org", "www.glygen.org"]},
+         "wiki":{ "sheet_title":"GlyGen_Wiki_Top20Pages","domain_list":["wiki.glygen.org"]},
+         "data":{ "sheet_title":"GlyGen_Data_Top20Pages","domain_list":["data.glygen.org"]},
+         "beta":{ "sheet_title":"GlyGen_Beta_Top20Pages","domain_list":["beta.glygen.org"]},
+         "api":{ "sheet_title":"GlyGen_API_Top20Pages","domain_list":["api.glygen.org"]}
+      },
+		"top10referrals":{
+         "portal":{ "sheet_title":"GlyGen_Top10Referrals","domain_list":["glygen.org", "www.glygen.org"]},
+         "wiki":{ "sheet_title":"GlyGen_Wiki_Top10Referrals","domain_list":["wiki.glygen.org"]},
+         "data":{ "sheet_title":"GlyGen_Data_Top10Referrals","domain_list":["data.glygen.org"]},
+         "beta":{ "sheet_title":"GlyGen_Beta_Top10Referrals","domain_list":["beta.glygen.org"]},
+         "api":{ "sheet_title":"GlyGen_API_Top10Referrals","domain_list":["api.glygen.org"]}
+      },
+		"top10countries":{
+         "portal":{ "sheet_title":"GlyGen_Top10Countries_Monthly","domain_list":["glygen.org", "www.glygen.org"]},
+         "wiki":{ "sheet_title":"GlyGen_Wiki_Top10Countries_Monthly","domain_list":["wiki.glygen.org"]},
+         "data":{ "sheet_title":"GlyGen_Data_Top10Countries_Monthly","domain_list":["data.glygen.org"]},
+         "beta":{ "sheet_title":"GlyGen_Beta_Top10Countries_Monthly","domain_list":["beta.glygen.org"]},
+         "api":{ "sheet_title":"GlyGen_API_Top10Countries_Monthly","domain_list":["api.glygen.org"]}
+      }
+	}
+
+
+}
+
+
