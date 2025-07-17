@@ -23,14 +23,6 @@ ID for your Google spreadsheet created in Step-4.
 ### Step-3: Running scripts to update sheets
 Use the commands below to update your Google sheet tabs which are created following instructions in step-4. The 
 scripts take one or two arguments (-d $domain -m $module) 
-
-```
-$domain can be glygen/argosdb/biomarkerkb/... 
-$domainlabel can be GlyGen/ArgosDB/BioMarkerKB/...
-$module can be portal/beta/data/wiki/api
-$modulelabel can be Portal/Beta/Data/Wiki/API
-```
-
 ```
 $ python3 update-alldomainsdata-sheet.py -d $domain      		# updated sheets: Updated_AllDomains_Data, AllDomains_Top10Referrals, AllDomains_Bottom10Pages
 $ python3 update-alldomainstop10countries-sheet.py -d $domain		# updated sheets: Top10Countries, Top10Countries_Monthly
@@ -40,6 +32,12 @@ $ python3 update-overview-sheet.py -d $domain -m $module		# updated sheets:  $do
 $ python3 update-top20pages-sheet.py -d $domain -m $module		# updated sheets:  $domainlable_$modulelabel_Top20Pages
 $ python3 update-top10referrals-sheet.py -d $domain -m $module		# updated sheets:  $domainlable_$modulelabel_Top10Referrals
 $ python3 update-top10countries-sheet.py -d $domain -m $module		# updated sheets:  $domainlable_$modulelabel_Top10Countries_Monthly
+
+
+$domain can be glygen/argosdb/biomarkerkb/... 
+$domainlabel can be GlyGen/ArgosDB/BioMarkerKB/...
+$module can be portal/beta/data/wiki/api
+$modulelabel can be Portal/Beta/Data/Wiki/API
 ```
 
 
@@ -51,21 +49,19 @@ for the "sheet_id" parameter is "1faXFb6yEYzHssBFU-LH5b4YIRhBxttfBuyaHnl09fuA"
 https://docs.google.com/spreadsheets/d/1faXFb6yEYzHssBFU-LH5b4YIRhBxttfBuyaHnl09fuA/edit?gid=1246614802#gid=1246614802
 ```
 The expected sheet names are:
-
 ```
 Updated_AllDomains_Data, AllDomains_Top10Referrals, AllDomains_Bottom10Pages
 Top10Countries, Top10Countries_Monthly
 Subdomains_Overview
 Improved_Top20Pages
-
 $domainlable_$modulelabel_Overview
 $domainlable_$modulelabel_Top20Pages
 $domainlable_$modulelabel_Top10Referrals
 $domainlable_$modulelabel_Top10Countries_Monthly
-```
-where 
+
 $domainlabel can be GlyGen/ArgosDB/BioMarkerKB/...
 $modulelabel can be Portal/Beta/Data/Wiki/API
+```
 
   
 
