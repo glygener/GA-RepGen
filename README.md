@@ -1,8 +1,11 @@
 ### Step-1: Installation
 After you clone this repository, use the following commands to install required python packages
 ```
-$ sudo pip3 install xxx
-
+$ sudo pip3 install google-analytics-data
+$ sudo pip3 install google-api-python-client
+$ sudo pip3 install numpy
+$ sudo pip3 install pandas
+$ sudo pip3 install gspread
 ```
 
 
