@@ -26,6 +26,7 @@ ID for your Google spreadsheet created in Step-4.
 ### Step-3: Running scripts to update sheets
 Use the commands below to update your Google sheet tabs which are created following instructions in step-4. The 
 scripts take one or two arguments (-d $domain -m $module) 
+PATH in KVM2 Server for GlyGen and BiomarkerKB - /data/shared/repos/GA-RepGen
 ```
 $ python3 update-alldomainsdata-sheet.py -d $domain      		# updated sheets: Updated_AllDomains_Data, AllDomains_Top10Referrals, AllDomains_Bottom10Pages
 $ python3 update-alldomainstop10countries-sheet.py -d $domain		# updated sheets: Top10Countries, Top10Countries_Monthly
